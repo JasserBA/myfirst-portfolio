@@ -1,0 +1,204 @@
+@import url('https://fonts.cdnfonts.com/css/agustina');
+
+.logo-name{
+    color: white;
+    display: flex;    
+}
+.logo-name h2{    
+    font-family: 'Agustina', sans-serif;
+    font-size: x-large;
+    margin: 10px 10px 0 10px;
+    color: #ffff;
+
+}
+.logo-name p{
+    display: inline-flex;
+    margin: 10px 0 0 40px; 
+    font-size: xx-large; 
+    font-weight: 100;
+    color: #AF9C7C;
+}
+.logocss:hover{
+    width: 150px;
+    height:150px;
+    margin: -30px -80px;
+    transform: rotate(-5.5deg);
+    cursor: grabbing;
+}
+.all-nav{
+    max-width: 100vh;
+
+}
+Nav{       position: fixed;
+
+    padding-top: 5px;
+      text-align: center; display: flex;
+   justify-content: space-between;   
+   background-color: #000000 ;
+   padding: 20px 70px 0;
+   padding-right: 20px;    left:0; right: 0;top: 0;
+
+}
+.logocss{
+    width: 125px;
+    height: 125px;
+    margin: -20px -70px;    transition: .1s ease-in-out;
+
+}
+
+#navbar{   
+    display: flex;
+}
+#navbar li{
+    list-style: none;
+    padding: 0px 25px;
+    position: relative;
+}
+#navbar a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #ffff;
+    transition: 0.3s ease;
+  width: 100%;
+}
+
+#navbar li a:focus,
+#navbar li a:active{
+    color: black;
+    background-color: #AF9C7C;
+    border-radius: 10px;
+    padding: 8px;
+    margin: -8px;
+}
+#navbar li a.active{
+    color: #AF9C7C;
+   
+
+}
+#navbar li a.active:active{
+    color: #000;   
+
+}
+
+#navbar li a:hover::after,
+#navbar li a.active::after
+{
+   
+    content: "";
+    width: 40%;
+    height: 2px;
+    background-color: #AF9C7C;
+    position: absolute;
+    bottom: -4px;
+    left: 25px;
+    transition: 0.4s ease-in-out;
+
+}
+li img{
+    width: 20px;    
+    margin-left: -30px;
+    margin-right: -10px;
+    border: #AF9C7C solid 2px;
+    border-radius:20px ;
+    transition: 0.2s ease-in-out;
+    padding: 5px;
+}
+li img:hover{
+    opacity: 0.9;
+    cursor: pointer;
+    background-color: #fff;
+}
+.menucss{
+    width: 0px;
+    height: 0px;
+}
+li::marker{
+    content:''; 
+    
+}
+#navbar2{
+    display :none;
+}
+/*----------------------------CSS SMALL SCREENS----------------------*/
+@media only screen and (max-width: 600px){
+
+    .menucss{   
+        height: 40px;
+        width: 40px;
+        float: right;
+        position: relative;
+        margin: 0px 0 20px 0;
+    }
+   
+        #navbar{   
+        display: none;
+    }
+
+    .logo-name h2{    
+        font-size: small;
+        margin: 0px 10px 0 10px;
+    
+    }
+    .logo-name p{
+        margin: 5px 0 0 70px; 
+        font-size: large; 
+        
+    }
+    .logocss{
+        width: 80px;
+        height: 80px;
+        margin: -20px -60px;    transition: .1s ease-in-out;
+    }
+     #navbar2{
+        display: contents;
+        position: fixed;
+        
+    }
+
+   nav{
+    position: fixed;
+   }
+    #navbar2 li{
+        padding: 0px 20px 20px 0;
+    }
+    #navbar2 a{
+        text-decoration: none;
+        font-weight: 600;
+        color: #ffff;
+        transition: 0.3s ease;
+        margin-left: 270px;
+    
+    }
+    
+    #navbar2 li a:focus,
+    #navbar2 li a:active{
+        color: black;
+        background-color: #AF9C7C;
+        border-radius: 10px;
+        padding: 3px;
+        padding-left: 100px;
+        margin-left: 170px;
+        padding-right: 7px;
+
+
+    }
+   
+    .box-menu {
+        opacity: 0;
+        transform: translateY(-7%);
+        transition:  0.3s ease-in-out;
+        background-color: #000;
+        width: 370px;
+        float: right;        
+    margin-top: 80px;
+    border: #AF9C7C 2px solid ;
+    border-top: none;
+    border-radius: 10px;
+}
+      
+    .box-menu.show {
+        opacity: 1;
+        transform: translateY(0%);
+      }
+}

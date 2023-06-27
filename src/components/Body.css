@@ -1,0 +1,669 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:wght@100&family=Khula:wght@300&display=swap');/*Intro Part*/
+*{
+    margin: 0;
+}
+section{
+    cursor: crosshair;
+  margin-top:70px;       min-width: 100%;
+
+}
+
+#Intro{
+    display: flex;
+    padding: 150px 0px 0px 50px;
+    justify-content: center;   
+    
+}
+
+
+.Intro-text h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 120px;
+    font-weight: lighter;
+    margin-bottom: -10px;
+    
+}
+.Intro-text h1 span{
+    color: #AF9C7C;
+}
+.Intro-text p{
+    font-family: 'JetBrains Mono', monospace;
+    font-size:20px;
+}
+
+.Intro-picture img{
+    width: 400px;
+   border-radius:  68% 32% 29% 71% / 47% 52% 48% 53% ;   
+    transition: 0.4s ease-in-out;
+    -webkit-box-shadow: 10px 19px 35px -2px rgba(175,156,124,0.60); 
+    box-shadow: -5px 10px 35px -2px rgb(167, 149, 120);
+
+    margin: -40px 50px 0 150px;
+}
+.Intro-picture img:hover{
+    transition: 0.4s ease-in-out;
+   border-radius: 43% 57% 14% 86% / 66% 65% 35% 34%  ;
+   box-shadow: 10px 19px 35px -2px rgb(167, 149, 120);
+
+}
+
+/*About_me Part*/
+#ABOUTME{
+  margin: 100px;
+}
+#About_me{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.About_me-picture img{
+    width: 400px;
+    border-radius: 45px;
+    border-top: 10px solid #AF9C7C;
+    border-bottom: 10px solid #AF9C7C;
+    border-right: 10px solid #AF9C7C;
+    border-style: groove;
+    box-sizing: border-box;
+    padding:10px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.About_me-text{
+    margin-left: 200px;
+}
+.About_me-text h2{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 150px;
+    font-weight: lighter;
+}
+.About_me-text p{
+    text-align: left;
+    font-family: 'JetBrains Mono', monospace;
+    font-size:25px;
+}
+
+/*What_i_do Part*/
+#What_i_do{
+    display: flex;
+    padding: 20px 80px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+.What_i_do-picture img{
+    width: 480px;
+}
+.What_i_do-text {
+    margin: 0 200px 0 0;
+}
+.What_i_do-text h2{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 120px;
+  font-weight: lighter;
+}
+.What_i_do-text p{
+    text-align: left;
+    font-family: 'JetBrains Mono', monospace;
+    font-size:20px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+
+/*Expertise_skills Part*/
+#Expertise_skills{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   margin-top: 100px;
+
+}
+.Expertise_skills-picture img{
+    width: 500px;
+}
+.Expertise_skills-text{
+    margin:0 0px 0px 300px;
+}
+.Expertise_skills-text h2{
+  font-family: 'Bebas Neue', cursive;
+    font-size: 110px;
+    font-weight: lighter;
+    margin: 0 0 20px;
+
+}
+
+.Expertise_skills-text h4{
+    font-size: 25px;
+    font-family: 'Khula', sans-serif;
+    font-weight:lighter ;
+    margin-bottom: 10px;
+}
+#poll11{
+    margin:-5px 0 15px;
+    width: 300px;
+    border: #AF9C7C solid 15px;
+    border-radius: 30px;
+transform: translateY(-45px);
+position: absolute;
+}
+#poll22{
+  margin:-5px 0 15px;
+  width: 50px;
+    border: #AF9C7C solid 15px;
+    border-radius: 30px;
+transform: translateY(-45px);
+position: absolute;
+}#poll33{
+  margin:-5px 0 15px;
+  width: 200px;
+    border: #AF9C7C solid 15px;
+    border-radius: 30px;
+transform: translateY(-45px);
+position: absolute;
+}
+#poll01,#poll02,#poll03{
+    margin:-10px 0 15px;
+    border: #c8c7c5 solid 15px;
+    border-radius: 30px;transform: translateY(-6px);
+
+    width: 450px;
+
+}
+/*My_works part*/
+#MYWORKS{
+  margin: 100px;
+}
+.work0i{
+    display: flex;
+    justify-content: center;
+}
+
+.work0i img{
+    width:370px ;
+    margin: 10px 45px;
+}
+
+#My_works h2{
+  font-family: 'Bebas Neue', cursive;
+    font-size: 120px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 0 0 30px;
+}
+
+
+
+.work01,.work02{
+    width: 450px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    justify-content: right;
+    align-items: right;
+    margin-right: 20px;
+    border-radius: 15px;
+    padding-bottom: 140px;
+}
+
+.work01 ,.work02,.tools01,.tools02{
+    --clr: #AF9C7C;
+    --outline: 2px solid var(--clr);
+    color: var(--clr);
+    outline: var(--outline);
+    border: var(--outline);
+    outline-offset: -2px;
+    transition: outline-offset .3s ease;
+  }
+  .tools01,.tools02{
+    margin-left:-39px ;
+    text-align: center;
+    color: white;
+    font-size:20px;
+    padding-left: 50px;
+  }
+  .work0i span{
+    color: #b9f101; margin-right: 6px;
+  }
+  .tools01:hover,.tools02:hover {
+    box-shadow: inset 2000px 0 0 0 #AF9C7C;;
+    cursor: crosshair;
+  }
+  .work01:hover,.work02:hover{
+    outline: var(--outline);
+    outline-offset: -9px;
+  }
+  .work0i a:any-link{
+    font-size: x-large;
+    font-weight: 500;
+    text-decoration: underline;
+    color: #fff;
+  }
+  .work0i a:any-link:hover  {
+    text-decoration: underline;
+    color: black;    transition: 0.4s ease-in-out;
+
+  }
+
+  #My_works{
+    text-align: center;
+  }
+  #My_works button{  
+
+    border: #AF9C7C 3px solid;
+    border-radius: 7px;
+    font-size: x-large;
+    background: none;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+    font-weight: lighter;
+    padding: 5px; 
+    margin-top: 20px;
+  }
+  #My_works button:hover{  
+   color: #000;
+   background-color: #fff;
+   cursor: pointer;
+  }
+  /*Contact part*/
+  #CONTACT{
+     display: flex;
+    justify-content: center;
+    margin-top:200px;
+  }
+  
+  #contact-left{
+    padding-right: 300px;
+  }
+  .contact-left01,.contact-left02{
+    display: flex;
+    margin: 0 100px 20px;
+  }
+  #contact-left h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    margin:0px 0px 20px 100px;
+  }
+  #contact-left p{
+    margin-left: 35px;
+    font-weight: lighter;
+    position: absolute;
+
+  }
+  #contact-left .contact-left01 img,#contact-left .contact-left02 img{
+    width:25px;
+}
+.contact-left02-social-media{
+    display: flex;
+    margin-left: 100px;
+
+}
+.contact-left02-social-media img{
+  width: 20px;
+transition: .2s ease-in-out;
+}
+
+.contact-left02-social-media img:hover{
+  margin: -5px 0 -5px;
+    width:25px;
+    cursor: pointer;
+    opacity: .6;
+}
+#contact-left button{  
+     margin: 30px 100px;
+    border: #fff 3px solid;
+    width: 150px;
+    height: 40px;
+    border-radius: 7px;
+    font-size: large;
+    background: none;
+    color: #000;
+    transition: 0.2s ease-in-out;
+    background-color: #AF9C7C;
+
+  }
+  #contact-left button:hover{  
+   color: #000;
+   border: #AF9C7C 3px solid;
+
+   background-color: #fff;
+   cursor: pointer;
+  }
+  
+  #contact-right{   
+    display: block;
+    float: right;
+    margin-bottom:  80px;
+  }
+  #contact-right input{
+    background-color: #ffffff2d;
+    border: none;
+    border-radius: 7px;
+    width: 800px;
+    font-size: 20px;
+    height: 50px;
+    color: #fff;  
+    transition: 0.4s ease-in-out;
+  }
+  #contact-right textarea{
+    width: 800px;
+    height: 300px;  
+    background-color: #ffffff2d;
+    border: none;
+    border-radius: 7px;
+    font-size: 30px;
+    color: #fff; 
+    transition: 0.4s ease-in-out;
+    }
+  #contact-right input::placeholder{
+    font-size: 20px;
+  } 
+  #contact-right button{  
+   border: #AF9C7C 3px solid;
+   border-radius: 7px;
+   font-size: x-large;
+   background: none;
+   color: #fff;
+   transition: 0.2s ease-in-out;
+   background: transparent;
+  
+ }
+ #contact-right button:hover{  
+  color: #000;
+  border: #AF9C7C 3px solid;
+  background-color: #fff;
+  cursor: pointer;
+ }
+#scroll-back{
+    background-color: #30302f;
+    margin-top: -80px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 0 0 -70px  0;
+}
+
+#scroll-back img{
+    margin: -50px 0 -50px;
+}
+#msg {
+  color: #b9f101;
+  margin: 8px 0;
+}
+/*----------------------------CSS SMALL SCREENS----------------------*/
+@media only screen and (max-width: 600px){
+
+
+
+#Intro{
+  position: relative;
+    display: block;
+    padding: 20px 0px 0px 10px;
+  text-align: center;
+ 
+}
+
+
+.Intro-text h1{
+    font-size: 40px;
+    margin-bottom: 0px;
+    
+}
+.Intro-text p{
+    font-size:14px;
+}
+
+.Intro-picture img{
+    width: 150px;
+    margin: 15px 10px 0 10px;
+   
+}
+.Intro-picture img:hover{
+ box-shadow: 8px 25px 35px -22px rgb(167, 149, 120);
+
+}
+
+/*About_me Part*/
+#ABOUTME{
+  align-items: center;
+  position: relative;
+  margin:20px;
+}
+.About_me-picture img{
+  width:150px;
+  border-radius: 25px;
+  border-top: 5px solid #AF9C7C;
+  border-bottom: 5px solid #AF9C7C;
+  border-right: 5px solid #AF9C7C;
+  border-style: groove;
+  box-sizing: border-box;
+  padding:5px;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+.About_me-text{
+  margin-left: 10px;
+}
+.About_me-text h2{
+font-family: 'Bebas Neue', cursive;
+font-size: 40px;
+}
+.About_me-text p{
+  text-align: left;
+  font-family: 'JetBrains Mono', monospace;
+  font-size:13px;
+}
+
+/*What_i_do Part*/
+#What_i_do{
+  padding: 20px 10px;
+  margin-top: 20px;
+}
+.What_i_do-picture img{
+  width: 150px;
+}
+.What_i_do-text {
+  margin: 0 0px 0 0;
+}
+.What_i_do-text h2{
+font-size: 40px;
+}
+.What_i_do-text p{
+  font-size:13px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.img-social img{
+ width: 8%; 
+}
+.img-social{
+  display: flex;
+
+}
+
+/*Expertise_skills Part*/
+#Expertise_skills{
+  margin-top: 20px;
+  }
+.Expertise_skills-picture img{
+  width:  150px;
+}
+.Expertise_skills-text{
+  margin:0 0px 0px 10px;
+ }
+.Expertise_skills-text h2{
+  font-size: 38px;
+  margin: 0 0 0px;
+}
+
+.Expertise_skills-text h4{
+  font-size: 20px;
+  }
+#poll11{
+  margin:14px 0 15px;
+  width: 150px;
+  border: #AF9C7C solid 7.5px;
+  border-radius: 30px;
+transform: translateY(-45px);
+position: absolute;
+}
+#poll22{
+margin:14px 0 15px;
+width: 25px;
+  border: #AF9C7C solid 7.5px;
+  border-radius: 30px;
+transform: translateY(-45px);
+position: absolute;
+}#poll33{
+margin:14px 0 15px;
+width: 100px;
+  border: #AF9C7C solid 7.5px;
+  border-radius: 30px;
+transform: translateY(-45px);
+position: absolute;
+}
+#poll01,#poll02,#poll03{
+  margin:-10px 0 10px;
+  border: #c8c7c5 solid 7.5px;
+  border-radius: 30px;transform: translateY(-6px);
+  width: 180px;
+
+}
+
+/*My_works part*/
+.work0i{
+  display: block ;
+  align-items: center;
+}
+
+.work0i img{
+  width:320px ;
+  margin: 10px 0px;
+}
+.work0i{
+
+  margin: 0;
+  margin-left: 10px;
+}
+#My_works h2{
+  font-size: 40px;
+  margin-bottom: 5px;
+  }
+
+
+
+.work01,.work02{
+  width: 350px;
+  height: 100px;
+
+  margin-bottom: 20px;
+
+}
+
+.tools01,.tools02{
+  margin-left:-39px ;
+  text-align: center;
+  color: white;
+  font-size:11px;
+  padding-left: 50px;
+}
+.work0i a:any-link{
+  font-size: large;
+}
+#My_works button{  
+  font-size: large;
+  margin-top: 0;
+}
+#MYWORKS{
+  margin: 0px;
+}
+ /*Contact part*/
+ #CONTACT{
+  display: block;
+ margin-top:20px;
+}
+
+#contact-left{
+padding-right: 40px;
+margin-left: -85px;
+
+}
+.contact-left01,.contact-left02{
+ display: flex;
+ margin: 0 100px 10px;
+}
+#contact-left h2{
+ font-family: 'Bebas Neue', cursive;
+ font-size: 40px;
+ margin:50px 0px 0px 100px;
+}
+#contact-left p{
+ margin-left:25px;
+
+ font-weight: lighter;
+ position: absolute;
+  font-size: smaller;
+}
+#contact-left .contact-left01 img,#contact-left .contact-left02 img{
+ width:20px;
+}
+.contact-left02-social-media{
+ display: flex;
+ margin-left: 100px;
+
+}
+.contact-left02-social-media img{
+width: 20px;
+transition: .2s ease-in-out;
+ margin-top: 0;
+ margin-bottom: 0;
+
+}
+
+.contact-left02-social-media img:hover{
+margin: -5px 0 -5px;
+ width:25px;
+ cursor: pointer;
+ opacity: .6;
+}
+#contact-left button{  
+  margin: 20px 100px;
+ width: 150px;
+ height: 40px;
+}
+
+
+#contact-right{   
+ margin: 0;
+margin-left: -900px;
+}
+#contact-right input{
+ width: 300px;
+ height: 35px;
+margin-left: 0px;
+}
+#contact-right textarea{
+ width: 300px;
+ height: 200px;  
+ font-size: 20px;
+ }
+
+#contact-right button{  
+font-size: large;
+}
+
+#scroll-back{
+ background-color: #30302f;
+ margin-top: -80px;
+ text-align: center;
+ padding-bottom: 20px;
+ margin: 400px 0 0px  0;
+ 
+}
+
+
+#scroll-back img{
+ margin: -50px 0 -50px;
+}
+
+}
