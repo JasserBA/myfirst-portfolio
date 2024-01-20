@@ -4,12 +4,11 @@
     color: white;
     display: flex;    
 }
-.logo-name h2{    
+.logo-name span{    
     font-family: 'Agustina', sans-serif;
     font-size: x-large;
     margin: 10px 10px 0 10px;
     color: #ffff;
-
 }
 .logo-name p{
     display: inline-flex;
@@ -135,7 +134,7 @@ li::marker{
         display: none;
     }
 
-    .logo-name h2{    
+    .logo-name span{    
         font-size: small;
         margin: 0px 10px 0 10px;
     

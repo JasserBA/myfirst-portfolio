@@ -1,11 +1,10 @@
-import './App.css';
-import Nav from  './components/Nav' ;
-import Body from  './components/Body' ;
-import React,{useEffect} from 'react'
+import "./App.css";
+import Nav from "./components/Nav";
+import Body from "./components/Body";
+import React, { useEffect } from "react";
 function App() {
-
   useEffect(() => {
-    const nav = document.querySelector('.App-header');
+    const nav = document.querySelector(".App-header");
 
     let lastScrollY = window.scrollY;
 
@@ -26,13 +25,12 @@ function App() {
 
   return (
     <div className="App">
-     
-      <body className="App-body">
-        < Body/>
-      </body>
- <header className="App-header">
-        < Nav/>  
-      </header> 
+      <div className="App-body">
+        <Body />
+      </div>
+      <header className="App-header">
+        <Nav />
+      </header>
     </div>
   );
 }

@@ -1,20 +1,19 @@
 *{
   scroll-behavior: smooth;
-
 }
+
 .App-body{
   color: white;
   background-color: #000000;
-   position: absolute;
+  position: absolute;
   min-width: 100%;
   min-height: 100%;
-
 }
 
 .App-header{
   transition: 0.4s ease;
-
 }
+
 .App-header--hidden{
   transform: translateY(-40px);
   box-shadow:none ;
